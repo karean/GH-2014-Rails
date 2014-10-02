@@ -1,0 +1,290 @@
+#site-link{
+	a: color:#FFFFFF;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: 'Calibri';
+	font-size: 14px;
+	margin: 0;
+	min-width: 950px;
+	padding: 0;
+}
+
+a {
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+p a {
+	color: #003300;
+	font-style: italic;
+}
+
+h1 {
+	color: #003300;
+}
+
+#header { /* entire header section
+		 i.e. everything above the big slider */
+	background: url(header-background.jpg); /* might actually just be white */
+	height: 142px ; /* twice the logo pixel height */ /* NOT RIGHT */
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 14px;
+	margin-top: 0 auto;
+	color: #FFFFFF;
+}
+
+#header div { /* div for all header content */
+	margin: 0 auto;
+	overflow: hidden;
+	width: 950px;
+}
+
+#header div div#logo { /*Logo & Name, top bar */
+	height: 82px ; /* exact logo pixel height */ /* NOT RIGHT */
+	width: auto;
+	float: center;
+	padding-left: 132.5px;
+	padding-right: 132.5px;
+}
+
+#header div div#navigation { /* Nav Bar container */
+	height: auto; /* might also be exact logo pixel height */
+	width: 950px;
+	overflow: hidden;
+	font: arial ;/*figure out fonts*/ /* NOT RIGHT */
+	font-color: #FFFFFF;
+}
+
+#header div div#navigation div#primary { /* Nav buttons container */
+	float: left;
+	height: 30px; /* height of nav buttons */
+	width: 950px;
+}
+
+#header div div#navigation div#primary div ul { /* actual nav buttons */
+	background: none;
+	clear: both;
+	float: left;
+	height: 30px; /* could also be the px height of the buttons */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	min-width: 950px;
+	font-size: x-large;
+}
+
+#header div div#navigation div#primary div ul li:first-child {
+	background: url(navigation-button-background.jpg); no-repeat center left;
+	width: 150px;
+	text-align: center;
+	padding-right: 8px;
+}
+
+#header div div#navigation div#primary div ul li { /*MIGHT NOT NEED THIS!!!*/
+	background: url(navigation-button-background.jpg); no-repeat center left;
+	float: left;
+	width: 150px;
+	text-align: center;
+	padding-right: 8px;
+}
+
+#header div div#navigation div#primary div ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#header div div#navigation div#primary div ul li.current a,
+#header div div#navigation div#primary div ul li a:hover {
+	background-color: #003300;
+	text-shadow: #B2B2B2; /* Maybe choose a different color */
+}
+
+#header div div#navigation div#secondary { /* secondary buttons container */
+	float: left;
+	height: 30px;
+	width: 950px;
+	background-color: #003300;
+}
+
+#header div div#navigation div#secondary div {
+	height: auto;
+	width: 475px;
+	text-align: center;
+	float: left;
+}
+
+#header div div#navigation div#secondary div div p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#header div div#navigation div#secondary div {
+	height: auto;
+	width: 475px;
+	text-align: center;
+	float: right;
+}
+
+#header div div#navigation div#secondary div div p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#content {
+	background-color: #FFFFFF;
+	height: auto;
+	width: 100%;
+	margin: 14px auto;
+}
+
+#content div {
+	width: 950px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#content div div#featured {
+	width: 950px;
+	height: auto;
+	float: center;
+	margin: 14px auto;
+}
+
+#content div div#featured div{
+	float: center;
+}
+
+#content div div#title {
+
+}
+
+#content div div#words {
+
+}
+
+#content div div#homewords {
+	margin-top: 14px;
+	margin-bottom: 0px;
+	height: 201px;
+
+}
+
+#content div div#homewords div#realwords {
+	width: 380px;
+	margin: 0 auto;
+	float: left;
+}
+
+#content div div#homewords div#realwords p {
+	font-size: 18px;	
+}
+
+#content div div#homewords div#picturelink {
+	width: 270px;
+	margin: 0 auto;
+	display: inline;
+	padding-left: 14px;
+	padding-right: 14px;
+	overflow: hidden;
+	height: 201px;
+}
+
+#content div div#homewords div#socialbuttons {
+	width: 271px;
+	margin: 0 auto;
+	float: right;
+	display: inline;
+}
+
+#content div div#homewords div#socialbuttons div {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#content div div#homewords div#socialbuttons div ul {
+	padding: 0px 0px 0px 0px;
+}
+
+#content div div#homewords div#socialbuttons div li:first-child {
+	display: block;
+	padding: 0 auto;
+	width: 165px;
+	margin: 0 auto;
+}
+
+#content div div#homewords div#socialbuttons div li {
+	display: inline;
+}
+
+#content div div#links{
+	height: auto;
+	width: 950px;
+	margin: 14px auto;
+}
+
+#content div div#links div ul {
+	width: 950px;
+	padding: 0 0 0 0;
+	margin: 0 auto;
+}
+
+#content div div#links div ul li:first-child {
+	width: 300px;
+	padding: 7px 7px 7px 7px;
+}
+
+#content div div#links ul li {
+	float: left;
+	display: inline;
+	padding: 7px 7px 7px 7px;
+}
+
+#content div div#links ul li p {
+	font-size: 18px;
+	text-align: right;
+}
+
+#footer {
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	padding-bottom: 25px;
+	float: center;
+	margin: 14px auto;
+}
+
+#footer div {
+	width: 950px;
+	height: auto;
+	color: #003300;
+	float: center;
+	margin: 0 auto;
+}
+
+#footer div div#footertext
+{
+	float: center;
+}
+
+#footer div div#footertext p {
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	float: center;
+	margin: 0px;
+	padding-left: 315px;
+	padding-right: 315px;
+}

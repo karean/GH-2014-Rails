@@ -1,0 +1,27 @@
+#content
+	%div
+		#title
+			%h1 Green Hope | Our Volunteers
+		#featured
+			=image_tag('volunteer banner.jpg')
+		#titleText
+			%h1 Meet the people that make Green Hope great!
+		#school
+			%div
+				%ul
+					%li
+						=link_to image_tag('trip experience button.jpg'), trip_path
+						%span
+							%h2.projects_picture_text Trip Experience
+					%li
+						=link_to image_tag('featured volunteer button.jpg'), featured_volunteers_path
+						%span
+							%h2.projects_picture_text Featured Volunteers
+					%li
+						%h1 Get Involved!
+						=link_to image_tag('Donate Button.jpg'), donate_path
+						%h2 Contact Us: info@greenhope.us
+					/%li
+					/	=link_to image_tag('get involved button.jpg'), get_involved_path
+					/	%span
+					/		%h2.projects_picture_text Get Involved

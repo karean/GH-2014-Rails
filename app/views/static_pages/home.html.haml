@@ -1,0 +1,43 @@
+#content
+	%div
+		#featured
+			%div
+				=image_tag('look how fucking happy enock is 2.jpg')
+		#homewords
+			#realwords
+				%h1 The Green Hope Orphanage, Inc.
+				%p An American nonprofit incorporated and operated by University students to assist in the financial, academic, and administrative support of the Green Hope Nursery School in Olgilai Village, Arusha, Tanzania.
+			#picturelink
+				=link_to image_tag('Big E.jpg'), about_path
+				%h2.picture_link_text About Green Hope
+			#socialbuttons
+				%div
+					%ul
+						%li
+							=link_to image_tag('Donate Button.jpg'), donate_path
+		#links
+			%div
+				%ul
+					%li
+						=link_to image_tag('leadership button.jpg'), leadership_path
+						%span
+							%h2.picturetext Leadership
+					%li
+						=link_to image_tag('school button.jpg'), school_path
+						%span
+							%h2.picturetext School
+					%li
+						=link_to image_tag('projects button 2.jpg'), projects_path
+						%span
+							%h2.picturetext Projects
+					%li
+						=link_to image_tag('volunteer button.jpg'), volunteer_path
+						%span
+							%h2.picturetext Volunteer
+					%li
+						=link_to image_tag('support button.jpg'), donate_path
+						%span
+							%h2.picturetext Support
+					%li
+						%h1 Contact Us:
+						%p info@greenhope.us

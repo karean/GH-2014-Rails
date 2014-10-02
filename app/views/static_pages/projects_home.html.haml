@@ -1,0 +1,23 @@
+#content
+	%div
+		#title
+			%h1 Green Hope | Our Projects
+		#featured
+			=image_tag('projects banner.jpg')
+		#titleText
+			%h1 What we do and how we make a difference!
+		#school
+			%div
+				%ul
+					%li
+						=link_to image_tag('volunteer projects button.jpg'), volunteer_projects_path
+						%span
+							%h2.projects_picture_text Volunteer Projects
+					%li
+						=link_to image_tag('curriculum development button.jpg'), curriculum_path
+						%span
+							%h2.projects_picture_text Curriculum Development
+					%li
+						=link_to image_tag('gh primary button.jpg'), primary_path
+						%span
+							%h2.projects_picture_text Green Hope Primary

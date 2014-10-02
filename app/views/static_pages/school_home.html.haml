@@ -1,0 +1,31 @@
+#content
+	%div
+		#title
+			%h1 Green Hope | Our School
+		#featured
+			=image_tag('school banner.jpg')
+		#titleText
+			%h1 Learn more about our teachers, students, and facilities!
+		#school
+			%div
+				%ul
+					%li
+						=link_to image_tag('harriet button.jpg'), headmistress_path
+						%span
+							%h2.school_picture_text Headmistress
+					%li
+						=link_to image_tag('teachers button.jpg'), teachers_path
+						%span
+							%h2.school_picture_text Teachers
+					%li
+						=link_to image_tag('students button.jpg'), students_path
+						%span
+							%h2.school_picture_text Students
+					%li
+						=image_tag('button space holder.jpg')
+					%li
+						=link_to image_tag('facilities button.jpg'), facilities_path
+						%span
+							%h2.school_picture_text Facilities
+					%li
+						=image_tag('button space holder.jpg')

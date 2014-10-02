@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    %title= full_title(yield(:title))
+    = csrf_meta_tags
+    = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+  %body
+    -flash.each do  |key, value|
+      =content_tag(:div, "#{key}! #{value}", class: "alert-#{key}")
+    = render partial: 'layouts/logo'
+    = render partial: 'layouts/navigation'
+    = yield
+    = render partial: 'layouts/footer'
