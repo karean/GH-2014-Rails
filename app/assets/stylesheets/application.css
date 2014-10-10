@@ -32,16 +32,11 @@ p a {
 }
 
 h1 {
-	color: #003300;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	
+	color: #003300;	
 }
 
 h2 {
 	color: #003300;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	text-align: justify;
 }
 
@@ -620,6 +615,18 @@ h2 {
 	width: 950px;
 	height: 1000px;
 }
+
+#content div div#peoplelist h1 {
+	color: #003300;	
+	margin: 0px 0px 0px 0px;
+}
+
+#content div div#peoplelist h2 {
+	color: #003300;
+	text-align: justify;
+	margin: 0px 0px 0px 0px;
+}
+
 
 #content div div#peoplelist ul {
 	width: 950px;

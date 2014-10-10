@@ -4,12 +4,11 @@
   match '/about',               to:'static_pages#about_us_home',            via: 'get'
   match '/story',               to:'static_pages#our_story',                via: 'get'
   match '/leadership',          to:'static_pages#leadership_home',          via: 'get'
-  match '/founders',            to:'static_pages#a_word_from_our_founders', via: 'get'
+  match '/founding',            to:'static_pages#a_word_from_our_founders', via: 'get'
   match '/directors',           to:'static_pages#board_of_directors',       via: 'get'
   match '/executive',           to:'static_pages#executive_committee',      via: 'get'
   match '/school',              to:'static_pages#school_home',              via: 'get'
-  match '/headmistress',        to:'static_pages#headmistress_harriet',     via: 'get'
-  match '/teachers',            to:'static_pages#teachers',                 via: 'get'
+  match '/staff',               to:'static_pages#teachers',                 via: 'get'
   match '/students',            to:'static_pages#students',                 via: 'get'
   match '/facilities',          to:'static_pages#facilities',               via: 'get'
   match '/projects',            to:'static_pages#projects_home',            via: 'get'
@@ -27,6 +26,7 @@
 
   match '/nav', to:'static_pages#nav_test', via: 'get'
   match '/navex', to:'static_pages#nav', via: 'get'
+  match '/headmistress',        to:'static_pages#headmistress_harriet',     via: 'get'
 
 
 
