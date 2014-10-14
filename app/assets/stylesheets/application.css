@@ -42,11 +42,11 @@ h2 {
 
 #header { /* entire header section
 		 i.e. everything above the big slider */
-	height: 82px ; /* twice the logo pixel height */ /* NOT RIGHT */
+	height: auto; /* twice the logo pixel height */ /* NOT RIGHT */
 	overflow: hidden;
 	width: 100%;
-	margin-bottom: 0px;
-	margin-top: 0 auto;
+	margin-bottom: 14px;
+	margin-top: 14px;
 	color: #FFFFFF;
 }
 
@@ -57,7 +57,7 @@ h2 {
 }
 
 #header div div#logo { /*Logo & Name, top bar */
-	height: 82px ; /* exact logo pixel height */ /* NOT RIGHT */
+	height: 35px ; /* exact logo pixel height */ /* NOT RIGHT */
 	width: auto;
 	float: center;
 	padding-left: 132.5px;
@@ -229,6 +229,16 @@ h2 {
 	height: 180px;
 }
 
+#content div div#words div#blockB div#left ul {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+}
+
+#content div div#words div#blockB div#left ul li {
+		margin: 0px 0px 0px 0px;
+		display: inline-block;
+}
+
 #content div div#words div#blockB div#left {
 	float: left;
 	width: 673px;
@@ -309,6 +319,8 @@ h2 {
 
 #content div div#homewords div#socialbuttons div ul {
 	padding: 0px 0px 0px 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #content div div#homewords div#socialbuttons div li:first-child {
@@ -459,6 +471,11 @@ h2 {
 	padding: 7px 7px 7px 7px;
 	width: 300px;
 	height: 201px;
+}
+
+#content div div#school div ul li #centerDonationButton {
+	width: 165px;
+	margin: 0px 68px 0px 67px;
 }
 
 #content div div#imageBarLeft {
@@ -613,7 +630,7 @@ h2 {
 
 #content div div#peoplelist {
 	width: 950px;
-	height: 1000px;
+	height: auto;
 }
 
 #content div div#peoplelist h1 {

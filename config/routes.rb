@@ -18,15 +18,15 @@
   match '/volunteer',           to:'static_pages#volunteer_home',           via: 'get'
   match '/trip',                to:'static_pages#trip_experience',          via: 'get'
   match '/featured_volunteers', to:'static_pages#featured_volunteers',      via: 'get'
-  match '/get_involved',        to:'static_pages#get_involved',             via: 'get'
+#  match '/get_involved',        to:'static_pages#get_involved',             via: 'get'
   match '/donate',              to:'static_pages#donate_home',              via: 'get'
   match '/partners',            to:'static_pages#our_partners',             via: 'get'
   match '/sponsorship',         to:'static_pages#sponsorship',              via: 'get'
-  match '/donations',           to:'static_pages#donations',                via: 'get'
+#  match '/donations',           to:'static_pages#donations',                via: 'get'
 
-  match '/nav', to:'static_pages#nav_test', via: 'get'
-  match '/navex', to:'static_pages#nav', via: 'get'
-  match '/headmistress',        to:'static_pages#headmistress_harriet',     via: 'get'
+#  match '/nav', to:'static_pages#nav_test', via: 'get'
+#  match '/navex', to:'static_pages#nav', via: 'get'
+#  match '/headmistress',        to:'static_pages#headmistress_harriet',     via: 'get'
 
 
 
